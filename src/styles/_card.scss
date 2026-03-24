@@ -45,6 +45,10 @@
     color: $text-main;
     overflow: hidden;
     letter-spacing: 0%;
+
+    &:hover {
+      color: $title-color;
+    }
   }
 
   &__code {
@@ -116,7 +120,7 @@
 
     &:hover {
       color: $primary-color;
-      background-color: $background-color;
+      background-color: $card-bg;
       border-color: $primary-color;
     }
   }
